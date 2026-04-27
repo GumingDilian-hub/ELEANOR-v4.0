@@ -1,0 +1,58 @@
+# CHANGELOG.md
+
+# ELEANOR Platform Changelog
+
+## v4.0 (2026-04-27)
+
+### Added
+- **Architectural Expansion:** Upgraded from unidirectional to Dual-Direction (Read + Write) BCI architecture. Split into Neural-In (Sensory/MOD) and Neural-Out (Motor/MOS) modules.
+- **Four Application Directions:** Formalized Input-Therapy, Input-Embodiment, Output-Therapy, and Output-Embodiment vectors.
+- **Extended Embodiment Framework:** Protocols for isomorphic cortical column remapping and humanoid robotic avatar control.
+- **Global Cortical Monitor & Auto-Ban:** Real-time LFP/MUA anomaly detection with automatic hard electrical disconnect for seizure prevention.
+- **Dead-Man's Switch:** Full kinematic lockout for robotic avatars upon signal degradation detection.
+- **Staggered LNP Injection:** Multi-batch delivery protocol to prevent stochastic fusion caused by intracellular calcium oscillations.
+- **KALTSIT AND-Gate Logic:** Fully specified the molecular topology (Wire Chain A/B/C and Anchor Chain D/E) and complementary shielding logic (E protects A, B protects D, C exposed).
+- **Three Inviolable Baselines:** Codified No Enhancement, No Weakening, and No Genetic Editing as absolute platform constraints.
+
+### Changed
+- **BCI Mode:** Updated from "Read-Only" to "Read & Write (Dual Direction)".
+- **Safety Software Model:** Shifted to "Open Hardware, Closed Safety" doctrine (safety algorithms maintained as cryptographically signed closed-source binaries).
+- **License:** Updated from CC BY 4.0 to CC BY-NC-SA 4.0 (strictly non-commercial, share-alike).
+
+### Fixed
+- Corrected physical interface description from rigid graphene to fluidic lipid/DNA soft-electrodes.
+- Aligned clinical timelines with realistic molecular biology validation phases.
+
+### Removed
+- "Read-Only" constraint on BCI capabilities (replaced by dual-direction with strict safety monitoring).
+- Outdated v3.0 physical access descriptions.
+
+---
+
+## v3.0 (2026-04-26)
+
+### Updated
+- Full revision: replaced AAV9/TdT/NES-Cas9 with liposome delivery
+- Added standardized CPP auto-separation mechanism
+- Optimized KALTSIT complementary anti-degradation system
+- Unified system specificity to n⁴
+- Defined two routes as completely mutually exclusive
+- Restored brain region receptors and motor cortex topology
+- Strengthened originality and AI assistance declaration
+
+### Fixed
+- Conflicts between technical routes
+- Outdated delivery system description
+- Unreasonable clinical timelines
+- Non-specific sequence design risks
+
+### Removed
+- Viral vector-related content
+- Complex and unvalidated enzyme systems
+- Redundant personal descriptive information
+
+---
+
+## v2.0 (2026-04-25)
+- Initial release of dual-module platform
+- Established AD therapy + BCI dual-route framework

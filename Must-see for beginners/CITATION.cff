@@ -1,0 +1,17 @@
+# CITATION.cff
+
+cff-version: 1.2.0
+message: "If you use this platform or its architectural concepts in your research, please cite it using the metadata below."
+type: software
+title: "ELEANOR Platform v4.0: Engineered Localized Embedded Axonal Neuromodulatory Orthogonal Reparative Platform"
+abstract: "A next-generation precision biological neural interface system featuring dual-direction (Read/Write) architecture, molecular AND-Gate self-degradation (KALTSIT), and an extended embodiment framework for cortical remapping."
+authors:
+  - family-names: "Chenzhuo"
+    given-names: ""
+    orcid: "N/A"
+    affiliation: "GumingDilian-hub"
+version: "4.0"
+date-released: "2026-04-27"
+repository-code: "https://github.com/GumingDilian-hub/ELEANOR-v4.0"
+keywords: ["BCI", "Neuromodulation", "Soft-Electrode", "DNA-Nanowire", "Alzheimers-Disease", "Embodiment", "KALTSIT"]
+license: CC-BY 4.0

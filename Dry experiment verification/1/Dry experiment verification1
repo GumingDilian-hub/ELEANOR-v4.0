@@ -1,0 +1,31 @@
+# Blood-Brain Barrier (BBB) Permeability Prediction of Lipid Components  
+**Experiment Date**: [2026-4-26]  
+**Tool Used**: SwissADME (BOILED-Egg Model, SwissDrugDesign)  
+
+
+## 1. Objective  
+To predict whether the lipid components (DSPC, Cholesterol, PEG-DSPE) used in the ELEANOR platform can independently penetrate the blood-brain barrier (BBB) using the SwissADME tool.  
+
+
+## 2. Materials and Methods  
+Three lipid components were analyzed via the SwissADME web tool (https://swissadme.ch/). The SMILES notation of each component was input into the tool, and the "BBB permeant" parameter and BOILED-Egg model were evaluated.  
+
+
+## 3. Results  
+
+Lipid Component	SMILES Notation	BBB Permeant (Result)	BOILED-Egg Model (Interpretation)  
+DSPC	CCCCCCCCCCCCCCCCCCC(=O)OCC(OC(=O)C)COC(=O)CCCCCCC	No	Point located in the white region (cannot penetrate BBB)  
+Cholesterol	CC(C)CCCC(C)C1CCC2C1(CCC3C2CC=C4CC(O)CCC34C)C	No	Point located in the white region (cannot penetrate BBB)  
+PEG-DSPE	CCCCCCCCCCCCCCCCCC(=O)OCC(NC(=O)CCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCOCCO)C(=O)O	No	Point located in the white region (cannot penetrate BBB)  
+
+
+## 4. Conclusion  
+All three lipid components (DSPC, Cholesterol, PEG-DSPE) were predicted to **not independently penetrate the BBB**. This indicates that the lipid formulation in the ELEANOR platform relies on the liposome carrier mechanism (e.g., endocytosis or receptor-mediated transcytosis) to deliver cargo to target cells (e.g., neurons) rather than direct penetration of individual lipid molecules.  
+
+
+## 5. Evidence  
+- Screenshots of SwissADME analysis results for each lipid component (attached).  
+
+
+---  
+**Note**: The "BOILED-Egg" model classifies molecules as BBB-permeant if their points fall in the yellow region (high brain penetration) and non-permeant if in the white region (low brain penetration).  

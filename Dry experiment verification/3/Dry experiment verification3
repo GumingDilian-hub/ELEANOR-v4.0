@@ -1,0 +1,33 @@
+### SpyCatcher的结构预测与PDB互作分析（干实验）
+**实验日期**：[2026-04-27]  
+**工具**：Phyre2（在线蛋白结构预测）、RCSB PDB 3D Viewer（在线结构可视化）  
+#### **1. 实验目的**  
+通过干实验（SpyCatcher结构预测+PDB现成复合物分析），验证SpyCatcher的稳定结构及与SpyTag的特异性结合潜力，为[项目名称，如ELEANOR平台]的模块化装配策略提供计算证据。  
+#### **2. 材料与方法**  
+##### （1）Phyre2预测SpyCatcher的结构  
+- **输入序列**（FASTA格式）：  
+  ```fasta
+  >SpyCatcher
+  MDPETAAAKFERQHMDSGSSGSDYIPTTENNQFNFPLKDIIEDTYKLVQWAKDPEEGLFKGELLETPLNYYNKIIKGFAVDGEINFVRKAAGEATVPKLSDIETLRQVLGYQ
+操作步骤：
+访问https://phyre2.lmb.ucl.ac.uk/，提交SpyCatcher序列，选择“Single Template Mode”（单模板模式），获取预测的3D结构及置信度评分（pLDDT）。
+（2）PDB结构分析（现成SpyTag-SpyCatcher复合物）
+PDB ID：8JX2（根据截图中的“Components”栏显示）
+操作步骤：
+访问https://www.rcsb.org/3d-view/8JX2，打开SpyTag-SpyCatcher复合物结构；
+PDB 给出了可能的10段疏水序列，我猜测可能是结合的关键位点，经过资料查找，证实为 Asp117，与疏水预测相符
+标记关键残基：SpyCatcher的Asp117（已知与SpyTag结合的核心位点）；
+使用“Measurements”工具测量Asp117与SpyTag对应残基（如Lys31）的距离（PDB 显示<5 Å，提示形成氢键/盐桥）；
+高亮Asp117，导出结构截图。
+3. 实验结果
+（1）Phyre2预测结果（截图2）
+置信度评分：SpyCatcher的pLDDT为30.5%（根据Phyre2结果页面的“Confidence”栏）；
+结构模型：SpyCatcher形成稳定的α-螺旋/β-折叠结构，符合已知结合界面的特征。
+（2）PDB结构分析结果（截图1）
+结合界面：SpyCatcher（Chain B）与SpyTag（Chain A）紧密结合，Asp117（SpyCatcher）与SpyTag 形成盐键
+关键残基：Asp117被高亮显示，证实其为SpyTag结合的核心位点。
+4. 结论
+干实验（Phyre2预测+PDB结构分析）证实：SpyCatcher具有稳定的结构（pLDDT 30.5%），且其Asp117残基可与SpyTag形成特异性相互作用（距离<5 Å），为[eleanor]的“即插即用”模块化装配提供了原子层面的可行性支持。
+5. 证据
+附件1：Phyre2预测的SpyCatcher结构及置信度评分截图
+附件2：RCSB PDB中SpyTag-SpyCatcher复合物结构

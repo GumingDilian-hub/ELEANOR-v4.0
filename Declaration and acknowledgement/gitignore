@@ -1,0 +1,19 @@
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp & Build
+tmp/
+temp/
+build/
+*.tmp

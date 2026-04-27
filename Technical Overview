@@ -1,0 +1,57 @@
+# Technical Overview — ELEANOR Platform v4.0
+
+## Engineered Localized Embedded Axonal Neuromodulatory Orthogonal Reparative Platform
+### Dual-Module Sensory-Input & Motor-Output Architecture
+
+---
+
+## Core Version Updates (v3.0 → v4.0)
+1. **Architectural Shift:** Upgraded from single-route Read-Only BCI to a **Dual-Direction (Read + Write)** Neural-In / Neural-Out architecture.
+2. **Expanded Scope:** Introduced four distinct application vectors (Input-Therapy, Input-Embodiment, Output-Therapy, Output-Embodiment).
+3. **Delivery Optimization:** Replaced generic liposomes with **staggered multi-injection LNP protocols** to mitigate calcium-oscillation-induced stochastic fusion.
+4. **KALTSIT Logic Redefined:** Upgraded from generic "complementary protection" to a strict **Molecular AND-Gate** (Wire Chain A/B/C + Anchor Chain D/E shielding logic).
+5. **Safety Overhaul:** Integrated Global Cortical Activity Monitor, Automatic Electrode Ban, and Dead-Man's Switch for robotic avatars.
+6. **Ethical Constraints:** Codified the Three Inviolable Baselines (No Enhancement, No Weakening, No Genomic Editing) and the Isomorphic Mapping constraint.
+
+---
+
+## Core Architecture
+
+### Physical Access
+- **Intranasal LNP Delivery:** Non-invasive BBB bypass via olfactory/trigeminal pathways.
+- **Soft-Electrode Interface:** Fluidic lipid-based membrane fusion; zero mechanical shear stress.
+
+### Molecular Hardware Stack
+- **Conductance:** Polythiophene-Pyrene dual-doped DNA nanowires ($\pi$-electron delocalization).
+- **Stability:** Triple anti-hydrolysis shielding (spaced phosphorothioate + 2'-O-methyl + terminal idT capping).
+- **Bridging:** SpyTag/SpyCatcher covalent self-locking to NF-L cytoskeleton (for somatic targets).
+- **Specificity:** $n^4$ combinatorial sequence matching.
+- **Safety ×2:** CPP enzymatic self-cleavage (membrane sealing) + KALTSIT AND-Gate autolysis (error correction).
+
+---
+
+## The Four Application Directions
+
+### 1. Neural-In Therapy (Write → Brain)
+- **AD Autophagy Induction:** 40 Hz / 140 Hz specific-frequency entrainment via Tau-affinity anchored electrodes to drive microglial phagocytosis and clear p-Tau aggregates.
+- **Sensory Rehabilitation:** Cortical writing of encoded auditory/visual data to replace lost peripheral input (strictly capped at biological normative bandwidth).
+
+### 2. Neural-Out Therapy (Read → External)
+- **Communication Restoration:** High-fidelity motor cortex decoding for ALS/LIS patients. Non-surgical, biodegradable alternative to permanent implanted BCIs.
+- **Motor Decoding:** Decoding voluntary intent post-spinal cord injury for assistive device control.
+
+### 3. Neural-In Embodiment (Write → Brain Schema)
+- **Prosthetic Integration:** Writing tactile feedback from robotic appendages into S1 to drive Hebbian cortical column remapping, enabling genuine biological embodiment of the prosthetic.
+
+### 4. Neural-Out Embodiment (Read → Robotic Avatar)
+- **Isomorphic Avatar Control:** High-dimensional motor intent translation to humanoid robotic kinematics.
+- **Strict Constraint:** Robot capabilities (speed, force, DOF) hard-capped at biological human norms. No non-humanoid mapping allowed.
+
+---
+
+## Safety Bottom Lines
+1. **Zero Genomic Editing:** No viral vectors, no CRISPR, no nuclear entry. Strictly cytoplasmic/episomal.
+2. **KALTSIT AND-Gate:** Any delivery or hybridization failure results in instant DNase-mediated autolysis. Half-built complexes cannot persist.
+3. **Auto-Ban Protocol:** Aberrant cortical oscillations trigger immediate, irreversible electrical disconnect of the offending electrode.
+4. **Closed-Source Safety:** Core anomaly detection and kinematic constraint algorithms are cryptographically signed binaries to prevent unauthorized safety disablement.
+5. **No Enhancement:** ELEANOR restores lost human function. It will never be used to grant supra-normative sensory or motor capabilities.

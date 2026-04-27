@@ -1,0 +1,31 @@
+# Physicochemical Properties Analysis of Peptides (SpyTag and TAT)  
+**Experiment Date**: [2026-04-26]  
+**Tool Used**: ProtParam (ExPASy, SIB Swiss Institute of Bioinformatics)  
+
+
+## 1. Objective  
+To evaluate the physicochemical properties (molecular weight, theoretical pI, instability index) of two peptides—SpyTag (a protein-splicing tag) and TAT (a cell-penetrating peptide)—to assess their stability and suitability for the ELEANOR platform.  
+
+
+## 2. Materials and Methods  
+Two peptide sequences were analyzed via the ProtParam web tool (https://web.expasy.org/protparam/). The amino acid sequences were input into the tool, and key parameters (molecular weight, theoretical pI, instability index) were computed.  
+
+
+## 3. Results  
+
+Peptide Sequence	Number of Amino Acids	Theoretical pI	Molecular Weight (g/mol)	Instability Index (II)	Stability Classification  
+SpyTag (AHIVMVDAYKPTK)	13	8.55	1472.77	12.61	Stable (II < 40)  
+TAT (YGRKKRRQRRR)	11	12.31	1559.85	204.74	Unstable (II > 40)  
+
+
+## 4. Conclusion  
+- **SpyTag**: Exhibits a low instability index (12.61), indicating high stability. This suggests it can maintain structural integrity during experimental processes.  
+- **TAT**: Shows a high instability index (204.74), classifying it as unstable. This may require optimization (e.g., sequence modification) to enhance stability for in vivo applications.  
+
+
+## 5. Evidence  
+- Screenshots of ProtParam analysis results for SpyTag and TAT (attached).  
+
+
+---  
+**Note**: The instability index (II) is a key metric for peptide stability—values <40 indicate stability, while values >40 suggest instability.  
